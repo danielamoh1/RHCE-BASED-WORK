@@ -108,8 +108,6 @@ ssh matthew@control
 
 - step1: Installing the ansible
 
-> In the real exam you would need to install ansible if it's installed already.
-
 > I am using `ansible version 2.9` so i dont have to use `fully qualified collection name`. in simple words, when you use ansible modules while writing ansible playbooks, you won't need to write a long name of the module `ansible.builtin.copy` but you could simply use `copy`. the reason behind this is `ansible 2.13` contains a lot of modules that were created by people from all around the world, and the only way to `differentiate between these modules` is actually by using `white-spaces` like `long names`. imagine the case if you want use a `networking module` and you want to use for example `cisco.os.bla.bla` another module could be called `cisco.os.os` as well, and if you wrote the name of the module `cisco.os` inside a playbook `ansible won't be able to fetch the right module from preinstalled collections`.
 
 > But say im using `ansible 2.13 version` from `ansible-core` and it could be difficult for you to install the right version of ansible. so, using `ansible 2.13 version` which is a little complicated due to `fQCN`.
