@@ -1,5 +1,5 @@
 # RHCE-BASED-PROJECT
-# Ansible Sample Exam for RHCE EX294
+# Ansible RHCE EX294
 
 This is a sample Ansible project that I’ve created to challenge my knowledge with ansible. This project will include many various tasks that explaore different sides of ansible automain and configuration
 
